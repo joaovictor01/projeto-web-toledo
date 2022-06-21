@@ -1,8 +1,46 @@
 .nav-item a {
     text-decoration: none !important;
-    color: #7C7C7D
+    color: #dfdfdf !important;
+    font-weight: bold;
 }
 
 body {
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA; */
+    /* background-image: url('../images/abstract-futuristic-background-with-3d-design.jpg'); */
+    background: #232323 !important;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#background {
+    /* background-image: url('../images/abstract-futuristic-background-with-3d-design.jpg'); */
+    background: #232323 !important;
+}
+
+.home-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 320px;
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+    padding: 0 !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+  }
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.large-text {
+    font-size: xx-large;
 }
